@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
 
-import signInBackgroundImg from '../../assets/sign-in-background.png'
+import signInBackgroundImg from '../../assets/sign-in-background1.png'
 
 export const Container = styled.div`
     height: 100vh;
@@ -25,14 +25,14 @@ export const Content = styled.div`
         width: 340px;
         text-align: center;
 
-        h1{
-            margin-bottom: 24px;
+        h2{
+            margin-bottom: 16px;
         }
 
         a {
             color: #F4EDE8;
             display: block;
-            margin-top: 24px;
+            margin-top: 20px;
             text-decoration: none;
             transition: color 0.2s;
 
@@ -45,7 +45,7 @@ export const Content = styled.div`
     > a {
         color: #FF9000;
         display: block;
-        margin-top: 14px;
+        margin-top: 10px;
         text-decoration: none;
         transition: color 0.2s;
 

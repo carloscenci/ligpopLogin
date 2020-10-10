@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
 
-import signUpBackgroundImg from '../../assets/sign-up-background.png'
+import signUpBackgroundImg from '../../assets/sign-up-background1.png'
 
 export const Container = styled.div`
     height: 100vh;
@@ -25,7 +25,7 @@ export const Content = styled.div`
         width: 340px;
         text-align: center;
 
-        h1{
+        h2{
             margin-bottom: 24px;
         }
 
